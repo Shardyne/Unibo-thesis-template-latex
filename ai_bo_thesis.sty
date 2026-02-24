@@ -32,7 +32,7 @@ with the `report' document style}}{}
     
     %\setmainfont{Times New Roman}
     
-    \usepackage[backend=bibtex,style=trad-plain, sorting=nty,firstinits=true]{biblatex}
+    %\usepackage[backend=bibtex,style=trad-plain, sorting=nty,firstinits=true]{biblatex}
     \addbibresource{biblio.bib}
     
     \begin{document}
@@ -214,13 +214,13 @@ with the `report' document style}}{}
     \cleardoublepage
         \pagenumbering{arabic}
     \pagestyle{fancy}
-    \renewcommand{\chaptermark}[1]{\markboth{##1}{##1}} % remember chapter title
+        \renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ ##1}{\thechapter.\ ##1}} % remember chapter number and title
     \renewcommand{\sectionmark}[1]{\markright{\thesection\ ##1 }}
                                                  % section number and title 
     %\lhead[\fancyplain{}{\bf\thepage}]{\fancyplain{}{\bf\miomark}}
     \lhead[\fancyplain{}{\bf\thepage}]{\fancyplain{}{\bf\mymark}}
     \rhead[\fancyplain{}{\bf\mymark}]{\fancyplain{}{\bf\thepage}}
-    \def\mymark{\rightmark}
+        \def\mymark{\leftmark} % show chapter title in header (use \leftmark)
     \def\myminit{\thesection~}
     \cfoot{}
     \fancypagestyle{plain}{% 

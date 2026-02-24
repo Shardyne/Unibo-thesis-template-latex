@@ -19,6 +19,400 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{bao}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7b0d84eb74457aef2636cc9f2b9c10a0}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Jianzhu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffa7e19d4b4e9eba5a9795dd802613b0}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Chuang},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=958789b2038466f4d869f619c51985f8}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jipeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=357f4634a105da5bb920ba04144c3348}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={Yixue},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0122b0d012b6acfeca9d00d9d908067f}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Jiachen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92441027d6090d43e11467129e4ce9f8}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ruifeng},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=9d8c366afd7f948820f05d7fe6206c28}{%
+           family={Zong},
+           familyi={Z\bibinitperiod},
+           given={Chengqing},
+           giveni={C\bibinitperiod}}}%
+        {{hash=61e00ed0c44b8bddb9077a74a4ac1167}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=318a797cfb1e6f8da35b79287d226780}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6fe24dce481a67e247581d4b20435709}{%
+           family={Navigli},
+           familyi={N\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{09a8d3e8d8eaeac3bef5234d2150aa90}
+      \strng{fullhash}{53a1f8ea1b14cdaebbdec7ca061429a6}
+      \strng{fullhashraw}{53a1f8ea1b14cdaebbdec7ca061429a6}
+      \strng{bibnamehash}{09a8d3e8d8eaeac3bef5234d2150aa90}
+      \strng{authorbibnamehash}{09a8d3e8d8eaeac3bef5234d2150aa90}
+      \strng{authornamehash}{09a8d3e8d8eaeac3bef5234d2150aa90}
+      \strng{authorfullhash}{53a1f8ea1b14cdaebbdec7ca061429a6}
+      \strng{authorfullhashraw}{53a1f8ea1b14cdaebbdec7ca061429a6}
+      \strng{editorbibnamehash}{4058c5286e5d51b02c73d306e7a9473d}
+      \strng{editornamehash}{4058c5286e5d51b02c73d306e7a9473d}
+      \strng{editorfullhash}{7c3dda83a9d34ca480a8d30a423f8916}
+      \strng{editorfullhashraw}{7c3dda83a9d34ca480a8d30a423f8916}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The goal of argumentation mining is to automatically extract argumentation structures from argumentative texts. Most existing methods determine argumentative relations by exhaustively enumerating all possible pairs of argument components, which suffer from low efficiency and class imbalance. Moreover, due to the complex nature of argumentation, there is, so far, no universal method that can address both tree and non-tree structured argumentation. Towards these issues, we propose a neural transition-based model for argumentation mining, which incrementally builds an argumentation graph by generating a sequence of actions, avoiding inefficient enumeration operations. Furthermore, our model can handle both tree and non-tree structured argumentation without introducing any structural constraints. Experimental results show that our model achieves the best performance on two public datasets of different structures.}
+      \field{booktitle}{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}
+      \field{month}{8}
+      \field{title}{A Neural Transition-based Model for Argumentation Mining}
+      \field{year}{2021}
+      \field{pages}{6354\bibrangedash 6364}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/2021.acl-long.497
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.acl-long.497/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.acl-long.497/
+      \endverb
+    \endentry
+    \entry{jonesrussia}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=602b362b26bbbfcebc6b61c8c54b0614}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Seth\bibnamedelima G},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9eada4ec84c21aa04675c4bc9984a94}{%
+           family={McCabe},
+           familyi={M\bibinitperiod},
+           given={Riley},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12b33dfed1878a5061274ad12031c7e0}
+      \strng{fullhash}{12b33dfed1878a5061274ad12031c7e0}
+      \strng{fullhashraw}{12b33dfed1878a5061274ad12031c7e0}
+      \strng{bibnamehash}{12b33dfed1878a5061274ad12031c7e0}
+      \strng{authorbibnamehash}{12b33dfed1878a5061274ad12031c7e0}
+      \strng{authornamehash}{12b33dfed1878a5061274ad12031c7e0}
+      \strng{authorfullhash}{12b33dfed1878a5061274ad12031c7e0}
+      \strng{authorfullhashraw}{12b33dfed1878a5061274ad12031c7e0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Russia’s Grinding War in Ukraine}
+      \field{year}{2026}
+    \endentry
+    \entry{torr}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=87f69230e136bd69fe2f8517e0536169}{%
+           family={Lippi},
+           familyi={L\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ace71bc0a9dc508d5006c826133bf14b}{%
+           family={Torroni},
+           familyi={T\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{70aa7c7e90a320288b3aa82fd8651f42}
+      \strng{fullhash}{70aa7c7e90a320288b3aa82fd8651f42}
+      \strng{fullhashraw}{70aa7c7e90a320288b3aa82fd8651f42}
+      \strng{bibnamehash}{70aa7c7e90a320288b3aa82fd8651f42}
+      \strng{authorbibnamehash}{70aa7c7e90a320288b3aa82fd8651f42}
+      \strng{authornamehash}{70aa7c7e90a320288b3aa82fd8651f42}
+      \strng{authorfullhash}{70aa7c7e90a320288b3aa82fd8651f42}
+      \strng{authorfullhashraw}{70aa7c7e90a320288b3aa82fd8651f42}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Argumentation mining aims at automatically extracting structured arguments from unstructured textual documents. It has recently become a hot topic also due to its potential in processing information originating from the Web, and in particular from social media, in innovative ways. Recent advances in machine learning methods promise to enable breakthrough applications to social and economic sciences, policy making, and information technology: something that only a few years ago was unthinkable. In this survey article, we introduce argumentation models and methods, review existing systems and applications, and discuss challenges and perspectives of this exciting new research area.}
+      \field{issn}{1533-5399}
+      \field{journaltitle}{ACM Trans. Internet Technol.}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Argumentation Mining: State of the Art and Emerging Trends}
+      \field{volume}{16}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1145/2850417
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2850417
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2850417
+      \endverb
+      \keyw{social media,machine learning,knowledge representation,computational linguistics,artificial intelligence,Argumentation mining}
+    \endentry
+    \entry{niculae}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7fb1184b4b06404ea26547130860771e}{%
+           family={Niculae},
+           familyi={N\bibinitperiod},
+           given={Vlad},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd82e834a326ddf1a9ea24c47930692d}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Joonsuk},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e15f6d4f21d19148e2145753f040e4b}{%
+           family={Cardie},
+           familyi={C\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=de391703fb0c2fdf733b3a0095bc32ce}{%
+           family={Barzilay},
+           familyi={B\bibinitperiod},
+           given={Regina},
+           giveni={R\bibinitperiod}}}%
+        {{hash=549f49a0f40722c52169e0083730d12f}{%
+           family={Kan},
+           familyi={K\bibinitperiod},
+           given={Min-Yen},
+           giveni={M\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, Canada}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{fullhash}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{fullhashraw}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{bibnamehash}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{authorbibnamehash}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{authornamehash}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{authorfullhash}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{authorfullhashraw}{e1cf186eebc713dc99714eec83ea9abb}
+      \strng{editorbibnamehash}{4a0c7f629ae99df2ae1057fe0c6f8b88}
+      \strng{editornamehash}{4a0c7f629ae99df2ae1057fe0c6f8b88}
+      \strng{editorfullhash}{4a0c7f629ae99df2ae1057fe0c6f8b88}
+      \strng{editorfullhashraw}{4a0c7f629ae99df2ae1057fe0c6f8b88}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a novel factor graph model for argument mining, designed for settings in which the argumentative relations in a document do not necessarily form a tree structure. (This is the case in over 20{\%} of the web comments dataset we release.) Our model jointly learns elementary unit type classification and argumentative relation prediction. Moreover, our model supports SVM and RNN parametrizations, can enforce structure constraints (e.g., transitivity), and can express dependencies between adjacent relations and propositions. Our approaches outperform unstructured baselines in both web comments and argumentative essay datasets.}
+      \field{booktitle}{Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}
+      \field{month}{7}
+      \field{title}{Argument Mining with Structured {SVM}s and {RNN}s}
+      \field{year}{2017}
+      \field{pages}{985\bibrangedash 995}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/P17-1091
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P17-1091/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P17-1091/
+      \endverb
+    \endentry
+    \entry{palau}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e074aacb6b63f1a871b3f6db7eace8d7}{%
+           family={Palau},
+           familyi={P\bibinitperiod},
+           given={Raquel\bibnamedelima Mochales},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04fe502dceb461055032ff714831f9fd}{%
+           family={Moens},
+           familyi={M\bibinitperiod},
+           given={Marie-Francine},
+           giveni={M\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Barcelona, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{d3924dc9042f72e2f3d281f667505da7}
+      \strng{fullhash}{d3924dc9042f72e2f3d281f667505da7}
+      \strng{fullhashraw}{d3924dc9042f72e2f3d281f667505da7}
+      \strng{bibnamehash}{d3924dc9042f72e2f3d281f667505da7}
+      \strng{authorbibnamehash}{d3924dc9042f72e2f3d281f667505da7}
+      \strng{authornamehash}{d3924dc9042f72e2f3d281f667505da7}
+      \strng{authorfullhash}{d3924dc9042f72e2f3d281f667505da7}
+      \strng{authorfullhashraw}{d3924dc9042f72e2f3d281f667505da7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Argumentation is the process by which arguments are constructed and handled. Argumentation constitutes a major component of human intelligence. The ability to engage in argumentation is essential for humans to understand new problems, to perform scientific reasoning, to express, to clarify and to defend their opinions in their daily lives. Argumentation mining aims to detect the arguments presented in a text document, the relations between them and the internal structure of each individual argument. In this paper we analyse the main research questions when dealing with argumentation mining and the different methods we have studied and developed in order to successfully confront the challenges of argumentation mining in legal texts.}
+      \field{booktitle}{Proceedings of the 12th International Conference on Artificial Intelligence and Law}
+      \field{isbn}{9781605585970}
+      \field{series}{ICAIL '09}
+      \field{title}{Argumentation mining: the detection, classification and structure of arguments in text}
+      \field{year}{2009}
+      \field{pages}{98\bibrangedash 107}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/1568234.1568246
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1568234.1568246
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1568234.1568246
+      \endverb
+    \endentry
+    \entry{potash}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f8b80020aafbbd99c80f8728651e7288}{%
+           family={Potash},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82e80b505dabbb525ae6afbde3758334}{%
+           family={Romanov},
+           familyi={R\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=166fc42521dabe0995188c3472e8d3dd}{%
+           family={Rumshisky},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=8c92d21f9aded31210d396bfc368310b}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=69852b0bcc808d7fc562da5a377c8c80}{%
+           family={Hwa},
+           familyi={H\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6cd024b217f3f2f8126e253b8c84d24d}{%
+           family={Riedel},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Copenhagen, Denmark}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{e54b90665825936365e3a183d588c5fb}
+      \strng{fullhash}{e54b90665825936365e3a183d588c5fb}
+      \strng{fullhashraw}{e54b90665825936365e3a183d588c5fb}
+      \strng{bibnamehash}{e54b90665825936365e3a183d588c5fb}
+      \strng{authorbibnamehash}{e54b90665825936365e3a183d588c5fb}
+      \strng{authornamehash}{e54b90665825936365e3a183d588c5fb}
+      \strng{authorfullhash}{e54b90665825936365e3a183d588c5fb}
+      \strng{authorfullhashraw}{e54b90665825936365e3a183d588c5fb}
+      \strng{editorbibnamehash}{b10f6987733cd181c811f260421be0c4}
+      \strng{editornamehash}{b10f6987733cd181c811f260421be0c4}
+      \strng{editorfullhash}{b10f6987733cd181c811f260421be0c4}
+      \strng{editorfullhashraw}{b10f6987733cd181c811f260421be0c4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In order to determine argument structure in text, one must understand how individual components of the overall argument are linked. This work presents the first neural network-based approach to link extraction in argument mining. Specifically, we propose a novel architecture that applies Pointer Network sequence-to-sequence attention modeling to structural prediction in discourse parsing tasks. We then develop a joint model that extends this architecture to simultaneously address the link extraction task and the classification of argument components. The proposed joint model achieves state-of-the-art results on two separate evaluation corpora, showing far superior performance than the previously proposed corpus-specific and heavily feature-engineered models. Furthermore, our results demonstrate that jointly optimizing for both tasks is crucial for high performance.}
+      \field{booktitle}{Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing}
+      \field{month}{9}
+      \field{title}{Here{'}s My Point: Joint Pointer Architecture for Argument Mining}
+      \field{year}{2017}
+      \field{pages}{1364\bibrangedash 1373}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.18653/v1/D17-1143
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/D17-1143/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/D17-1143/
+      \endverb
+    \endentry
     \entry{BERTbas}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=7ad6f287600e2b0c58f9b4ff963e945d}{%

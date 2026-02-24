@@ -1,0 +1,37 @@
+\chapter{Introduction}
+The invasion of Ukraine perpetrated by the Russian Federation is one of the most important political events of the 3rd decade of the 21\textsuperscript{st} century. Since the beginning
+of the invasion approximately 14600 civilians have died and the total number of people who lost their lives is approximately of 2 millions as of \citet{jonesrussia}. This war has been particularly historical
+because has been
+the first major conflict between two different european states since the end of the Second World War,
+ as the war in Iugoslavia is considered as civil conflict.\\
+The financial and military aid of the USA, the European Union and the United Kingdom to Ukraine played a major role in 
+letting the state to resist to the invasion and, for this reason,
+the support of these countries' public opinions in favour or against the war could lead to major results on the battlefield. 
+Consequently, both Western countries and the 
+Russian Federation have started a huge campaign of propaganda to influence the public opinions of the countries who are supporting Ukraine, therefore an automatic system
+which allows to understand the the major topics which are discussed in the society regarding the war 
+in Ukraine could reveal to be fundamental for winning on the frontline.
+\section{ANR CIGAIA project}
+As mentioned on its website, the CIGAIA project has a dual nature as it aims at understanding the argumentative patterns
+used in the civil controversies about international matterss, but also allowing to better understand the information environment 
+of military operations.\\
+This thesis aims at working on what the project defines as the second axis of the project: designing an Artificial Intelligence system
+for automatically analysing the the argumentation in these controversies, as a first passage which will allow in the future 
+to design a decision support tool. The goal of the latter tool will be to map the actors via the identification of controversies
+using argumentation and counter-argumentation strategies.
+\section{Argument Mining}
+Argument Mining (AM) is one of the most interesting topics currently in the field of Natural Language Processing and it was 
+defined by \citet{palau}
+as a study which `aims to detect the arguments presented in a text document, the relations between them and the internal structure of each individual argument'. In this context three main 
+tasks were defined to address the various aspects which argumentation involves:
+\begin{itemize}
+    \item argument identification, where the goal is to isolate the parts which are considered argumentative from the ones which are deemed non-argumentative;
+    \item argument component identification, where the objective is to identify and classify argument components as either claims, assertions of a given fact which the speaker wants to prove in the text, or premises, 
+    axioms which are assumed to be true in the text;
+    \item argument relation identification, where the goal is to identify and classify different types of relationship between claims and premises (i.e. a premise can be used to support a claim but also to contest it).
+\end{itemize}
+In this project it will be assumed that the task of segmentation, therefore the one isolating the senteces which are deemend of interest for classification,
+was solved. For this reason the focus of this project will be on the classification part of the 3 subtasks.\\
+After this brief introduction, chapter \ref{chapter:2} will focus on the related work and describing the state-of-the-art for classification in argument mining, chapter \ref{chapter:3}
+will expose the methodology which will be employed in this project, chapter \ref{chapter:4} the results of hte project and chapter \ref{chapter:5} will contain the conlcusions and the 
+limitations obtained.

@@ -9,3 +9,128 @@
   keywords={Transformers;Ethics;Natural language processing;Data mining;Intelligent systems;Computational modeling},
   doi={10.1109/MIS.2021.3073993}}
 
+@article{torr,
+author = {Lippi, Marco and Torroni, Paolo},
+title = {Argumentation Mining: State of the Art and Emerging Trends},
+year = {2016},
+issue_date = {April 2016},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {16},
+number = {2},
+issn = {1533-5399},
+url = {https://doi.org/10.1145/2850417},
+doi = {10.1145/2850417},
+abstract = {Argumentation mining aims at automatically extracting structured arguments from unstructured textual documents. It has recently become a hot topic also due to its potential in processing information originating from the Web, and in particular from social media, in innovative ways. Recent advances in machine learning methods promise to enable breakthrough applications to social and economic sciences, policy making, and information technology: something that only a few years ago was unthinkable. In this survey article, we introduce argumentation models and methods, review existing systems and applications, and discuss challenges and perspectives of this exciting new research area.},
+journal = {ACM Trans. Internet Technol.},
+month = mar,
+articleno = {10},
+numpages = {25},
+keywords = {social media, machine learning, knowledge representation, computational linguistics, artificial intelligence, Argumentation mining}
+}
+
+@inproceedings{niculae,
+    title = "Argument Mining with Structured {SVM}s and {RNN}s",
+    author = "Niculae, Vlad  and
+      Park, Joonsuk  and
+      Cardie, Claire",
+    editor = "Barzilay, Regina  and
+      Kan, Min-Yen",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P17-1091/",
+    doi = "10.18653/v1/P17-1091",
+    pages = "985--995",
+    abstract = "We propose a novel factor graph model for argument mining, designed for settings in which the argumentative relations in a document do not necessarily form a tree structure. (This is the case in over 20{\%} of the web comments dataset we release.) Our model jointly learns elementary unit type classification and argumentative relation prediction. Moreover, our model supports SVM and RNN parametrizations, can enforce structure constraints (e.g., transitivity), and can express dependencies between adjacent relations and propositions. Our approaches outperform unstructured baselines in both web comments and argumentative essay datasets."
+}
+
+
+@inproceedings{potash,
+    title = "Here{'}s My Point: Joint Pointer Architecture for Argument Mining",
+    author = "Potash, Peter  and
+      Romanov, Alexey  and
+      Rumshisky, Anna",
+    editor = "Palmer, Martha  and
+      Hwa, Rebecca  and
+      Riedel, Sebastian",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1143/",
+    doi = "10.18653/v1/D17-1143",
+    pages = "1364--1373",
+    abstract = "In order to determine argument structure in text, one must understand how individual components of the overall argument are linked. This work presents the first neural network-based approach to link extraction in argument mining. Specifically, we propose a novel architecture that applies Pointer Network sequence-to-sequence attention modeling to structural prediction in discourse parsing tasks. We then develop a joint model that extends this architecture to simultaneously address the link extraction task and the classification of argument components. The proposed joint model achieves state-of-the-art results on two separate evaluation corpora, showing far superior performance than the previously proposed corpus-specific and heavily feature-engineered models. Furthermore, our results demonstrate that jointly optimizing for both tasks is crucial for high performance."
+}
+
+@inproceedings{bao,
+    title = "A Neural Transition-based Model for Argumentation Mining",
+    author = "Bao, Jianzhu  and
+      Fan, Chuang  and
+      Wu, Jipeng  and
+      Dang, Yixue  and
+      Du, Jiachen  and
+      Xu, Ruifeng",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.497/",
+    doi = "10.18653/v1/2021.acl-long.497",
+    pages = "6354--6364",
+    abstract = "The goal of argumentation mining is to automatically extract argumentation structures from argumentative texts. Most existing methods determine argumentative relations by exhaustively enumerating all possible pairs of argument components, which suffer from low efficiency and class imbalance. Moreover, due to the complex nature of argumentation, there is, so far, no universal method that can address both tree and non-tree structured argumentation. Towards these issues, we propose a neural transition-based model for argumentation mining, which incrementally builds an argumentation graph by generating a sequence of actions, avoiding inefficient enumeration operations. Furthermore, our model can handle both tree and non-tree structured argumentation without introducing any structural constraints. Experimental results show that our model achieves the best performance on two public datasets of different structures."
+}
+
+@inproceedings{cheng,
+    title = "{IAM}: A Comprehensive and Large-Scale Dataset for Integrated Argument Mining Tasks",
+    author = "Cheng, Liying  and
+      Bing, Lidong  and
+      He, Ruidan  and
+      Yu, Qian  and
+      Zhang, Yan  and
+      Si, Luo",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.162/",
+    doi = "10.18653/v1/2022.acl-long.162",
+    pages = "2277--2287",
+    abstract = "Traditionally, a debate usually requires a manual preparation process, including reading plenty of articles, selecting the claims, identifying the stances of the claims, seeking the evidence for the claims, etc. As the AI debate attracts more attention these years, it is worth exploring the methods to automate the tedious process involved in the debating system. In this work, we introduce a comprehensive and large dataset named IAM, which can be applied to a series of argument mining tasks, including claim extraction, stance classification, evidence extraction, etc. Our dataset is collected from over 1k articles related to 123 topics. Near 70k sentences in the dataset are fully annotated based on their argument properties (e.g., claims, stances, evidence, etc.). We further propose two new integrated argument mining tasks associated with the debate preparation process: (1) claim extraction with stance classification (CESC) and (2) claim-evidence pair extraction (CEPE). We adopt a pipeline approach and an end-to-end method for each integrated task separately. Promising experimental results are reported to show the values and challenges of our proposed tasks, and motivate future research on argument mining."
+}
+
+@inproceedings{palau,
+author = {Palau, Raquel Mochales and Moens, Marie-Francine},
+title = {Argumentation mining: the detection, classification and structure of arguments in text},
+year = {2009},
+isbn = {9781605585970},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1568234.1568246},
+doi = {10.1145/1568234.1568246},
+abstract = {Argumentation is the process by which arguments are constructed and handled. Argumentation constitutes a major component of human intelligence. The ability to engage in argumentation is essential for humans to understand new problems, to perform scientific reasoning, to express, to clarify and to defend their opinions in their daily lives. Argumentation mining aims to detect the arguments presented in a text document, the relations between them and the internal structure of each individual argument. In this paper we analyse the main research questions when dealing with argumentation mining and the different methods we have studied and developed in order to successfully confront the challenges of argumentation mining in legal texts.},
+booktitle = {Proceedings of the 12th International Conference on Artificial Intelligence and Law},
+pages = {98–107},
+numpages = {10},
+location = {Barcelona, Spain},
+series = {ICAIL '09}
+}
+
+@article{jonesrussia,
+  title={Russia’s Grinding War in Ukraine},
+  author={Jones, Seth G and McCabe, Riley},
+  year = {2026}
+}

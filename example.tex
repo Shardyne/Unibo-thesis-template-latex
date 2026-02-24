@@ -2,14 +2,13 @@
 %\documentclass[a4paper,twoside,12pt]{report} % Uncomment this for printing.
 \usepackage{array}
 
-
 \usepackage{ai_bo_thesis}
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[hidelinks]{hyperref} % makes TOC clickable
 
-\usepackage[backend=biber,style=authoryear, sorting=nty,giveninits=true]{biblatex}
+\usepackage[backend=biber,style=authoryear,sorting=nty,giveninits=true,natbib=true]{biblatex}
 \addbibresource{biblio.bib}
 \usepackage{iftex}
 \ifPDFTeX
@@ -26,18 +25,21 @@
 	\supervisor{Prof.~Paolo Torroni}
 %	\cosupervisor{& John Doe, PhD.} % One co-supervisor.
 %	\cosupervisors{& Dott.~Ing.~Luigi Bianchi\\& Dott~Avv.~Lucia Rossi} % More than one co-supervisor.
-	\academicyear{2020-2021}
-	\session{1st}
+	\academicyear{2025-2026}
+	\session{bho}
 	
 	\frontispiece 
-	\dedication{dedicated(X) :- friend(X).}
+	\dedication{}
 	\toc
 	\figstoc
 	\tablestoc
 	\begintext
 	
-	\chapter{Introduction}
-    \input{related work}
+	\input{tex_chapters/introduction}
+    \input{tex_chapters/related_work}
+	\input{tex_chapters/methodology}
+    \input{tex_chapters/results}
+	\input{tex_chapters/conclusions}
 	
 	\appendix
 	
@@ -45,6 +47,6 @@
 
 	
 	\acknowledgements
-		I'm very grateful to the inventor of the Prolog language, without whom this thesis couldn't exist. I'd also like to acknowledge my advisor Prof. Mario Rossi by tail-recursively acknowledging my advisor.
+
 		
 \end{document}
