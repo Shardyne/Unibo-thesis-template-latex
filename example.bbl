@@ -121,6 +121,137 @@
       \verb https://aclanthology.org/2021.acl-long.497/
       \endverb
     \endentry
+    \entry{cabessa2025argument}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8c41da35a0bba366f075246e71a41b92}{%
+           family={Cabessa},
+           familyi={C\bibinitperiod},
+           given={Jérémie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dc7315d1ee18d6199f006674fec3025}{%
+           family={Hernault},
+           familyi={H\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96758c089bb2e9cc9aed9f006f04dcc0}{%
+           family={Mushtaq},
+           familyi={M\bibinitperiod},
+           given={Umer},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01f50fa9180c7bf92147c536a7447c1c}
+      \strng{fullhash}{01f50fa9180c7bf92147c536a7447c1c}
+      \strng{fullhashraw}{01f50fa9180c7bf92147c536a7447c1c}
+      \strng{bibnamehash}{01f50fa9180c7bf92147c536a7447c1c}
+      \strng{authorbibnamehash}{01f50fa9180c7bf92147c536a7447c1c}
+      \strng{authornamehash}{01f50fa9180c7bf92147c536a7447c1c}
+      \strng{authorfullhash}{01f50fa9180c7bf92147c536a7447c1c}
+      \strng{authorfullhashraw}{01f50fa9180c7bf92147c536a7447c1c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 31st international conference on computational linguistics}
+      \field{title}{Argument mining with fine-tuned large language models}
+      \field{year}{2025}
+      \field{pages}{6624\bibrangedash 6635}
+      \range{pages}{12}
+    \endentry
+    \entry{dore}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a55b902fd80c81a4e86f34d841ccd041}{%
+           family={Dore},
+           familyi={D\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=633e9aa2ddaab0d7ffc63f76700d98fe}{%
+           family={Faralli},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a25ef6b1524f271b24d81855810e4a02}{%
+           family={Villata},
+           familyi={V\bibinitperiod},
+           given={Serena},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=4f2c6ba5a5809c31b3691bc9f8b2094a}{%
+           family={Chistova},
+           familyi={C\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=42843da8f88197b42fb1e9df5f0ad5d5}{%
+           family={Cimiano},
+           familyi={C\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c4f20bdfb048abd8e9e5322f162de893}{%
+           family={Haddadan},
+           familyi={H\bibinitperiod},
+           given={Shohreh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=032dd288f67edc83ad6bee128214a66c}{%
+           family={Lapesa},
+           familyi={L\bibinitperiod},
+           given={Gabriella},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7ad6f287600e2b0c58f9b4ff963e945d}{%
+           family={Ruiz-Dolz},
+           familyi={R\bibinithyphendelim D\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{fullhash}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{fullhashraw}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{bibnamehash}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{authorbibnamehash}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{authornamehash}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{authorfullhash}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{authorfullhashraw}{d2cab6e6b4de23eb907a2ab0939ea966}
+      \strng{editorbibnamehash}{6c5a44da2ee4cf33ee214b2375d53ec7}
+      \strng{editornamehash}{6c5a44da2ee4cf33ee214b2375d53ec7}
+      \strng{editorfullhash}{a0e6a9344284843ceef69063c4fafa06}
+      \strng{editorfullhashraw}{a0e6a9344284843ceef69063c4fafa06}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Argument Mining (AM) aims at detecting argumentation structures (i.e., premises and claims linked by attack and support relations) in text. A natural application domain is political debates, where uncovering the hidden dynamics of a politician{'}s argumentation strategies can help the public to identify fallacious and propagandist arguments. Despite the few approaches proposed in the literature to apply AM to political debates, this application scenario is still challenging, and, more precisely, concerning the task of predicting the relation holding between two argument components. Most of AM relation prediction approaches only consider the textual content of the argument component to identify and classify the argumentative relation holding among them (i.e., support, attack), and they mostly ignore the structural knowledge that arises from the overall argumentation graph. In this paper, we propose to address the relation prediction task in AM by combining the structural knowledge provided by a Knowledge Graph Embedding Model with the contextual knowledge provided by a fine-tuned Language Model. Our experimental setting is grounded on a standard AM benchmark of televised political debates of the US presidential campaigns from 1960 to 2020. Our extensive experimental setting demonstrates that integrating these two distinct forms of knowledge (i.e., the textual content of the argument component and the structural knowledge of the argumentation graph) leads to novel pathways that outperform existing approaches in the literature on this benchmark and enhance the accuracy of the predictions.}
+      \field{booktitle}{Proceedings of the 12th Argument mining Workshop}
+      \field{isbn}{979-8-89176-258-9}
+      \field{month}{7}
+      \field{title}{Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates}
+      \field{year}{2025}
+      \field{pages}{74\bibrangedash 86}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.18653/v1/2025.argmining-1.7
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2025.argmining-1.7/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2025.argmining-1.7/
+      \endverb
+    \endentry
     \entry{jonesrussia}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=602b362b26bbbfcebc6b61c8c54b0614}{%
@@ -334,6 +465,50 @@
       \verb https://doi.org/10.1145/1568234.1568246
       \endverb
     \endentry
+    \entry{pietron2024efficient}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1cf3714bdaf59329e04e6262a46c3755}{%
+           family={Pietron},
+           familyi={P\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a3ad124f442c0b7ab4e28670a1f211c}{%
+           family={Olszowski},
+           familyi={O\bibinitperiod},
+           given={Rafa{ł}},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f130a49258f21aab86588d3d567ddeb}{%
+           family={Gomu{ł}ka},
+           familyi={G\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c49352c5f9f163a35c4e71d3586b472f}
+      \strng{fullhash}{c49352c5f9f163a35c4e71d3586b472f}
+      \strng{fullhashraw}{c49352c5f9f163a35c4e71d3586b472f}
+      \strng{bibnamehash}{c49352c5f9f163a35c4e71d3586b472f}
+      \strng{authorbibnamehash}{c49352c5f9f163a35c4e71d3586b472f}
+      \strng{authornamehash}{c49352c5f9f163a35c4e71d3586b472f}
+      \strng{authorfullhash}{c49352c5f9f163a35c4e71d3586b472f}
+      \strng{authorfullhashraw}{c49352c5f9f163a35c4e71d3586b472f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Computational Collective Intelligence}
+      \field{title}{Efficient argument classification with compact language models and chatgpt-4 refinements}
+      \field{year}{2024}
+      \field{pages}{249\bibrangedash 262}
+      \range{pages}{14}
+    \endentry
     \entry{potash}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f8b80020aafbbd99c80f8728651e7288}{%
@@ -413,7 +588,7 @@
       \verb https://aclanthology.org/D17-1143/
       \endverb
     \endentry
-    \entry{BERTbas}{article}{}{}
+    \entry{trans}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=7ad6f287600e2b0c58f9b4ff963e945d}{%
            family={Ruiz-Dolz},

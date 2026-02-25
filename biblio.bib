@@ -134,3 +134,94 @@ series = {ICAIL '09}
   author={Jones, Seth G and McCabe, Riley},
   year = {2026}
 }
+
+@ARTICLE{trans,
+  author={Ruiz-Dolz, Ramon and Alemany, Jose and Barberá, Stella M. Heras and García-Fornes, Ana},
+  journal={IEEE Intelligent Systems}, 
+  title={Transformer-Based Models for Automatic Identification of Argument Relations: A Cross-Domain Evaluation}, 
+  year={2021},
+  volume={36},
+  number={6},
+  pages={62-70},
+  keywords={Transformers;Ethics;Natural language processing;Data mining;Intelligent systems;Computational modeling},
+  doi={10.1109/MIS.2021.3073993}}
+
+  @inproceedings{goffredo,
+    title = "Argument-based Detection and Classification of Fallacies in Political Debates",
+    author = "Goffredo, Pierpaolo  and
+      Chaves, Mariana  and
+      Villata, Serena  and
+      Cabrio, Elena",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.684/",
+    doi = "10.18653/v1/2023.emnlp-main.684",
+    pages = "11101--11112",
+    abstract = "Fallacies are arguments that employ faulty reasoning. Given their persuasive and seemingly valid nature, fallacious arguments are often used in political debates. Employing these misleading arguments in politics can have detrimental consequences for society, since they can lead to inaccurate conclusions and invalid inferences from the public opinion and the policymakers. Automatically detecting and classifying fallacious arguments represents therefore a crucial challenge to limit the spread of misleading or manipulative claims and promote a more informed and healthier political discourse. Our contribution to address this challenging task is twofold. First, we extend the ElecDeb60To16 dataset of U.S. presidential debates annotated with fallacious arguments, by incorporating the most recent Trump-Biden presidential debate. We include updated token-level annotations, incorporating argumentative components (i.e., claims and premises), the relations between these components (i.e., support and attack), and six categories of fallacious arguments (i.e., Ad Hominem, Appeal to Authority, Appeal to Emotion, False Cause, Slippery Slope, and Slogans). Second, we perform the twofold task of fallacious argument detection and classification by defining neural network architectures based on Transformers models, combining text, argumentative features, and engineered features. Our results show the advantages of complementing transformer-generated text representations with non-text features."
+}
+
+@inproceedings{dore,
+    title = "Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates",
+    author = "Dore, Deborah  and
+      Faralli, Stefano  and
+      Villata, Serena",
+    editor = "Chistova, Elena  and
+      Cimiano, Philipp  and
+      Haddadan, Shohreh  and
+      Lapesa, Gabriella  and
+      Ruiz-Dolz, Ramon",
+    booktitle = "Proceedings of the 12th Argument mining Workshop",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.argmining-1.7/",
+    doi = "10.18653/v1/2025.argmining-1.7",
+    pages = "74--86",
+    ISBN = "979-8-89176-258-9",
+    abstract = "Argument Mining (AM) aims at detecting argumentation structures (i.e., premises and claims linked by attack and support relations) in text. A natural application domain is political debates, where uncovering the hidden dynamics of a politician{'}s argumentation strategies can help the public to identify fallacious and propagandist arguments. Despite the few approaches proposed in the literature to apply AM to political debates, this application scenario is still challenging, and, more precisely, concerning the task of predicting the relation holding between two argument components. Most of AM relation prediction approaches only consider the textual content of the argument component to identify and classify the argumentative relation holding among them (i.e., support, attack), and they mostly ignore the structural knowledge that arises from the overall argumentation graph. In this paper, we propose to address the relation prediction task in AM by combining the structural knowledge provided by a Knowledge Graph Embedding Model with the contextual knowledge provided by a fine-tuned Language Model. Our experimental setting is grounded on a standard AM benchmark of televised political debates of the US presidential campaigns from 1960 to 2020. Our extensive experimental setting demonstrates that integrating these two distinct forms of knowledge (i.e., the textual content of the argument component and the structural knowledge of the argumentation graph) leads to novel pathways that outperform existing approaches in the literature on this benchmark and enhance the accuracy of the predictions."
+}
+
+@inproceedings{pietron2024efficient,
+  title={Efficient argument classification with compact language models and chatgpt-4 refinements},
+  author={Pietron, Marcin and Olszowski, Rafa{\l} and Gomu{\l}ka, Jakub},
+  booktitle={International Conference on Computational Collective Intelligence},
+  pages={249--262},
+  year={2024},
+  organization={Springer}
+}
+
+
+@inproceedings{cabessa2025argument,
+  title={Argument mining with fine-tuned large language models},
+  author={Cabessa, J{\'e}r{\'e}mie and Hernault, Hugo and Mushtaq, Umer},
+  booktitle={Proceedings of the 31st international conference on computational linguistics},
+  pages={6624--6635},
+  year={2025}
+}
+
+@inproceedings{liu-etal-2023-argument,
+    title = "Argument mining as a multi-hop generative machine reading comprehension task",
+    author = "Liu, Boyang  and
+      Schlegel, Viktor  and
+      Batista-Navarro, Riza  and
+      Ananiadou, Sophia",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.724/",
+    doi = "10.18653/v1/2023.findings-emnlp.724",
+    pages = "10846--10858",
+    abstract = "Argument mining (AM) is a natural language processing task that aims to generate an argumentative graph given an unstructured argumentative text. An argumentative graph that consists of argumentative components and argumentative relations contains completed information of an argument and exhibits the logic of an argument. As the argument structure of an argumentative text can be regarded as an answer to a ``why'' question, the whole argument structure is therefore similar to the ``chain of thought'' concept, i.e., the sequence of ideas that lead to a specific conclusion for a given argument (Wei et al., 2022). For argumentative texts in the same specific genre, the ``chain of thought'' of such texts is usually similar, i.e., in a student essay, there is usually a major claim supported by several claims, and then a number of premises which are related to the claims are included (Eger et al., 2017). In this paper, we propose a new perspective which transfers the argument mining task into a multi-hop reading comprehension task, allowing the model to learn the argument structure as a ``chain of thought''. We perform a comprehensive evaluation of our approach on two AM benchmarks and find that we surpass SOTA results. A detailed analysis shows that specifically the ``chain of thought'' information is helpful for the argument mining task."
+}

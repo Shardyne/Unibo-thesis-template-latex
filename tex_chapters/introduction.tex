@@ -19,16 +19,16 @@ This thesis aims at working on what the project defines as the second axis of th
 for automatically analysing the the argumentation in these controversies, as a first passage which will allow in the future 
 to design a decision support tool. The goal of the latter tool will be to map the actors via the identification of controversies
 using argumentation and counter-argumentation strategies.
-\section{Argument Mining}
+\section{Argument Mining}\label{sec:am}
 Argument Mining (AM) is one of the most interesting topics currently in the field of Natural Language Processing and it was 
 defined by \citet{palau}
-as a study which `aims to detect the arguments presented in a text document, the relations between them and the internal structure of each individual argument'. In this context three main 
+as a study which \textquote{aims to detect the arguments presented in a text document, the relations between them and the internal structure of each individual argument}. In this context three main 
 tasks were defined to address the various aspects which argumentation involves:
 \begin{itemize}
-    \item argument identification, where the goal is to isolate the parts which are considered argumentative from the ones which are deemed non-argumentative;
-    \item argument component identification, where the objective is to identify and classify argument components as either claims, assertions of a given fact which the speaker wants to prove in the text, or premises, 
+    \item argument classification (AC), where the goal is to isolate the parts which are considered argumentative from the ones which are deemed non-argumentative;
+    \item argument component classification (ACC), where the objective is to identify and classify argument components as either claims, assertions of a given fact which the speaker wants to prove in the text, or premises, 
     axioms which are assumed to be true in the text;
-    \item argument relation identification, where the goal is to identify and classify different types of relationship between claims and premises (i.e. a premise can be used to support a claim but also to contest it).
+    \item argument relation classification (ARC), where the goal is to identify and classify different types of relationship between claims and premises (i.e. a premise can be used to support a claim but also to contest it).
 \end{itemize}
 In this project it will be assumed that the task of segmentation, therefore the one isolating the senteces which are deemend of interest for classification,
 was solved. For this reason the focus of this project will be on the classification part of the 3 subtasks.\\

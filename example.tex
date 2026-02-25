@@ -1,7 +1,7 @@
-\documentclass[a4paper,singleside,12pt]{report} % Uncomment this for single side pdf.
+\documentclass[a4paper,singleside,12pt, parskip]{report} % Uncomment this for single side pdf.
 %\documentclass[a4paper,twoside,12pt]{report} % Uncomment this for printing.
 \usepackage{array}
-
+\usepackage{csquotes}
 \usepackage{ai_bo_thesis}
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
@@ -11,12 +11,23 @@
 \usepackage[backend=biber,style=authoryear,sorting=nty,giveninits=true,natbib=true]{biblatex}
 \addbibresource{biblio.bib}
 \usepackage{iftex}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\lstset{
+  basicstyle=\ttfamily,
+  backgroundcolor=\color{lightgray},
+  frame=none,
+  breaklines=true
+}
+\newcommand{\code}[1]{\lstinline!#1!}
 \ifPDFTeX
 	% pdfLaTeX: do not call fontspec or \setmainfont here
 \else
 	\usepackage{fontspec}
 	\setmainfont{Times New Roman}[Ligatures=TeX,Scale=1.0]
 \fi
+\setlength{\parindent}{0pt}
 \begin{document}
 	
 	\title{}
