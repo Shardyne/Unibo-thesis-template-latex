@@ -2376,13 +2376,11 @@
     <bcf:citekey order="1" intorder="1">jonesrussia</bcf:citekey>
     <bcf:citekey order="2" intorder="1">palau</bcf:citekey>
     <bcf:citekey order="3" intorder="1">torr</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">niculae</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">potash</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">bao</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">trans</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">dore</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">pietron2024efficient</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">cabessa2025argument</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">bao</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">trans</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">dore</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">pietron2024efficient</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">cabessa2025argument</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.27)  25 FEB 2026 17:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.27)  26 FEB 2026 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,7 +766,7 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 25.
+(Font)              scaled to size 12.0pt on input line 26.
 
 
 
@@ -792,20 +792,29 @@ Chapter 3.
 [7
 
 ]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
 Chapter 4.
 ) (./tex_chapters/conclusions.tex
 
-[8
+[9
 
 ]
 Chapter 5.
 )
 
-[9
+[10
 
 ]
 
-[10
+[11
 
 ]
 Overfull \hbox (4.45218pt too wide) in paragraph at lines 57--57
@@ -821,9 +830,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[12]
 
-[12
+[13
 
 
 ] (./example.aux)
@@ -832,18 +841,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: 654AFE61DDBD1103226F04350966653F;1335.
+(rerunfilecheck)             Checksum: 7567BCA281265F7DAF4E9A5F0C0DEB9B;1425.
 Package logreq Info: Writing requests to 'example.run.xml'.
 \openout1 = `example.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21888 strings out of 475366
- 433867 string characters out of 5762339
- 1329973 words of memory out of 5000000
- 44596 multiletter control sequences out of 15000+600000
+ 21879 strings out of 475366
+ 433587 string characters out of 5762339
+ 1329962 words of memory out of 5000000
+ 44587 multiletter control sequences out of 15000+600000
  573405 words of font info for 71 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 94i,12n,107p,1780b,4996s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,107p,1780b,4984s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on example.pdf (17 pages).
+Output written on example.pdf (18 pages).

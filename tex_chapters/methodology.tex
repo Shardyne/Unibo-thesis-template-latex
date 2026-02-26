@@ -1,1 +1,21 @@
 \chapter{Methodology}\label{chapter:3}
+In this chapter, after a description of the main characteristics of the dataset, all the models which will be applied 
+throughout the project are illustrated.
+\section{Dataset}
+The dataset contains a corpus of news articles slected in social scientists in English and French from 2022 and 2023 
+about the war in Ukraine. It is made of 1462 English articles (1.5 milion tokens) and 1865 French articles (1.8 milion 
+tokens).
+
+
+The articles were classified based on the year and on the topic (i.e. propaganda, terrorism, war crimes, etc.), 
+which is different from their genre (i.e. speeches, interviews, opinion pieces, etc.). The articles were manually
+reviewed to ensure that the full text was retrieved, they were cleaned to remove the irrelevant content like 
+advertisements.
+
+After creating the corpus, it needs to be annotated. The dataset is currently focus on intra-article annotation whose goal
+is to identify claims, premises and relations between them in a single article. The description of these elements is given 
+in section \ref{sec:am}. The annotators were first recruited via Prolific, a platform specific designed for connecting 
+researchers with participants. The latter would then be sent to a platform called Label Studio, which is specifically 
+designed for annotating text. However, the quality of the annotations was not satisfactory therefore the choice was to 
+rely on a single expert annotator, who would create a gold-standard. The corpus is not currently entirely annotated, the 
+statistics about the annotated corpus can be found in the following tables.

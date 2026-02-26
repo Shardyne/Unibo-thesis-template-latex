@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'example.blg'
-[30] biber:342> INFO - === Wed Feb 25, 2026, 17:37:38
-[36] Biber.pm:421> INFO - Reading 'example.bcf'
-[71] Biber.pm:1002> INFO - Found 10 citekeys in bib section 0
-[77] Biber.pm:4487> INFO - Processing section 0
-[81] Biber.pm:4678> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[81] bibtex.pm:1713> INFO - LaTeX decoding ...
-[89] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
-[150] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[151] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[151] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[151] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[157] bbl.pm:676> INFO - Writing 'example.bbl' with encoding 'UTF-8'
-[160] bbl.pm:779> INFO - Output to example.bbl
+[27] biber:342> INFO - === Thu Feb 26, 2026, 16:42:48
+[33] Biber.pm:421> INFO - Reading 'example.bcf'
+[67] Biber.pm:1002> INFO - Found 8 citekeys in bib section 0
+[73] Biber.pm:4487> INFO - Processing section 0
+[77] Biber.pm:4678> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[77] bibtex.pm:1713> INFO - LaTeX decoding ...
+[85] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
+[137] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[137] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[137] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[137] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[142] bbl.pm:676> INFO - Writing 'example.bbl' with encoding 'UTF-8'
+[144] bbl.pm:779> INFO - Output to example.bbl
