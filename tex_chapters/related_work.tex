@@ -1,14 +1,14 @@
 \chapter{Related work}\label{chapter:2}
 In this chapter a presentation of the most interesting researches about Argument Mining with a focus on the classification, which will be the central goal of this project. This was deemed to be necessary as in the last 10 years
-the field of Argument Mining has rapidly evolved. If 10 years ago, \citet{torr} mentioned that the best results were obtained resorting to approaches based on Machine Learning, now transformer based architecture have become the
+the field of Argument Mining has rapidly evolved. If 10 years ago, \textcite{torr} mentioned that the best results were obtained resorting to approaches based on Machine Learning, now transformer based architecture have become the
 standard for the task described in \ref{sec:am}.
 \section{Current State of the art}
-\noindent In the new decade, a neural transition based model was defined by \citet{bao}, but encoder-only transformer architectures the best results while keeping the computational cost contained,
+\noindent In the new decade, a neural transition based model was defined by \textcite{bao}, but encoder-only transformer architectures the best results while keeping the computational cost contained,
 for this reason they are currently the state-of-the-art for all the tasks which were defined in section \ref{sec:am}. This happened as the major task is always
 classification of a written text, therefore the same model may be employed for different tasks after the appropriate fine-tuning. 
 
 
-In \citet{trans} the goal was to solve argument relation identification on two different evaluation corpus: US2016 and MM2012. 
+In \textcite{trans} the goal was to solve argument relation identification on two different evaluation corpus: US2016 and MM2012. 
 The authors used BERT and the models derived from it: XLNet, combining auto-regressive modelling and auto-encoding techniques in order to overcome the downsides of BERT; RoBERTa, an optimized
 version of BERT, DistilBERT and ALBERT, which are smaller and faster versions of BERT. A linear layer with the softmax is applied on the top of the frozen transformer model in order to obtain the
 probability of the relation to be of each class.
@@ -21,17 +21,17 @@ Name Entity Recognition and therefore classifying each token as either part of a
 
 \section{Recent developments}
 The growing interest around Argument Mining led to an increase in the research on this topic in the past few years. For this reason new promising approaches which aim to mix the current SOTA 
-with other models whose results were solid in other fields. It is the case of \citet{dore}, where a Knowledge Graph is generated for solving an ARC task; after this a Knowledge Graph Embedding model called DistMult
+with other models whose results were solid in other fields. It is the case of \textcite{dore}, where a Knowledge Graph is generated for solving an ARC task; after this a Knowledge Graph Embedding model called DistMult
 is used for predicting the relationship between claims and premises. At the same time a DeBERTa model is used to obtain a forecast about the same claim and premise couple. The outputs of the two models are then 
 compared via a Convolutional Neural Network whose result is the final prediction. This hybrid approach reaches higher performances than the previous SOTA on the dataset called \textit{ElecDeb60to20}, as the two models
 are able to attend different text features, leading to a more complete analysis of the input.
 
 
-On the same idea of creating a hybrid approach with BERT derived models there is \citet{pietron2024efficient}, where the authors create a pipeline where the predictions of a BERT model are passed either
+On the same idea of creating a hybrid approach with BERT derived models there is \textcite{pietron2024efficient}, where the authors create a pipeline where the predictions of a BERT model are passed either
 to Small Language Model or to GPT-4 based on the uncertainty of the prediction, in order to refine it and get a second opinion about BERT's output. Even if this approach is promising, the integration
 could be done better in order to leverage LLM's reasoning capabilities as in this paper only prompting technique were employed, as it is not possible to fine-tune OpenAI models. Even though the methodology could 
 be improved, the results of this paper are better than the one previosly obtained on the datasets called \textit{US2016} and \textit{UKP}. Large Language Models were not employed just in hybrid models with 
-encoder-only architectures: \citet{cabessa2025argument} make a comparison between different LLMs on both ACC and ARC but also on identification tasks. Other than the single tasks, the authors wanted to test the 
+encoder-only architectures: \textcite{cabessa2025argument} make a comparison between different LLMs on both ACC and ARC but also on identification tasks. Other than the single tasks, the authors wanted to test the 
 performance of LLM on mixed task, therefore they created ARIC task which aims at identifying and classifying relations and also ACC–ARI–ARC, which aims at classifying argument components and then classifying the 
 relations between them. Even though, as expected, there was a decrease in the quality of the performances for the joint tasks compared to the one on the single tasks, the fine-tuned LLMs reached a macro F1 score
 higher than the previous SOTA results. This leads to the conclusion that, given the variety of models which are the state-of-the-art for different datasets, a comparative study between the approaches described here

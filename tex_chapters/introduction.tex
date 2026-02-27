@@ -1,6 +1,6 @@
 \chapter{Introduction}
 The invasion of Ukraine perpetrated by the Russian Federation is one of the most important political events of the 3rd decade of the 21\textsuperscript{st} century. Since the beginning
-of the invasion approximately 14600 civilians have died and the total number of people who lost their lives is approximately of 2 millions as of \citet{jonesrussia}. This war has been particularly historical
+of the invasion approximately 14600 civilians have died and the total number of people who lost their lives is approximately of 2 millions as of \textcite{jonesrussia}. This war has been particularly historical
 because has been
 the first major conflict between two different european states since the end of the Second World War,
  as the war in Iugoslavia is considered to be a civil conflict which led to the intervention of external states.\\
@@ -21,7 +21,7 @@ to design a decision support tool. The goal of the latter tool will be to map th
 using argumentation and counter-argumentation strategies.
 \section{Argument Mining}\label{sec:am}
 Argument Mining (AM) is one of the most interesting topics currently in the field of Natural Language Processing and it was 
-defined by \citet{palau}
+defined by \textcite{palau}
 as a study which \textquote{aims to detect the arguments presented in a text document, the relations between them and the internal structure of each individual argument}. In this context three main 
 tasks were defined to address the various aspects which argumentation involves:
 \begin{itemize}
@@ -30,6 +30,9 @@ tasks were defined to address the various aspects which argumentation involves:
     axioms which are assumed to be true in the text;
     \item argument relation classification (ARC), where the goal is to identify and classify different types of relationship between claims and premises (i.e. a premise can be used to support a claim but also to contest it).
 \end{itemize}
+The output of these tasks are usually used to produce an argument graph where the components are the vertices and the relation are the edges.
+
+
 In this project it will be assumed that the task of segmentation, therefore the one isolating the senteces which are deemend of interest for classification,
 was solved. For this reason the focus of this project will be on the classification part of the 3 subtasks.\\
 After this brief introduction, chapter \ref{chapter:2} will focus on the related work and describing the state-of-the-art for classification in argument mining, chapter \ref{chapter:3}

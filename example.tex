@@ -2,14 +2,21 @@
 %\documentclass[a4paper,twoside,12pt]{report} % Uncomment this for printing.
 \usepackage{array}
 \usepackage{csquotes}
+\usepackage{booktabs}
 \usepackage{ai_bo_thesis}
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[hidelinks]{hyperref} % makes TOC clickable
+\usepackage[hidelinks]{hyperref} % makes TOC clickable (links hidden, still active)
 
-\usepackage[backend=biber,style=authoryear,sorting=nty,giveninits=true,natbib=true]{biblatex}
+\usepackage[backend=biber,style=authoryear,sorting=nty,giveninits=true,hyperref=true]{biblatex}
 \addbibresource{biblio.bib}
+% Wrap full author + (year) produced by \textcite in the bibliography hyperlink
+\DeclareCiteCommand{\textcite}
+	{\boolfalse{cbx:parens}}
+	{\bibhyperref{\printnames{labelname}\setunit{\nameyeardelim}\printtext[parens]{\printfield{labelyear}}}}
+	{\multicitedelim}
+	{\booltrue{cbx:parens}}
 \usepackage{iftex}
 \usepackage{xcolor}
 \usepackage{listings}
@@ -30,7 +37,7 @@
 \setlength{\parindent}{0pt}
 \begin{document}
 	
-	\title{}
+	\title{Tracing Arguments: Classification Methods in News Coverage of the Russian Invasion of Ukraine}
 	\topic{Natural Language processing}
 	\candidate{Giorgio Scavello}
 	\supervisor{Prof.~Paolo Torroni}
